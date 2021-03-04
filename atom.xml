@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://run456.github.io</id>
     <title>跑得比谁都快</title>
-    <updated>2021-03-04T19:16:43.784Z</updated>
+    <updated>2021-03-04T19:17:48.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://run456.github.io"/>
     <link rel="self" href="https://run456.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://run456.github.io/images/avatar.png</logo>
     <icon>https://run456.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 跑得比谁都快</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 Gridea + Github 搭建个人博客]]></title>
+        <id>https://run456.github.io/post/shi-yong-gridea-github-da-jian-ge-ren-bo-ke</id>
+        <link href="https://run456.github.io/post/shi-yong-gridea-github-da-jian-ge-ren-bo-ke">
+        </link>
+        <updated>2021-03-04T08:25:53.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://run456.github.io/post/hello-gridea</id>

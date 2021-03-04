@@ -1,0 +1,219 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>使用 Gridea + Github 搭建个人博客 | 跑得比谁都快</title>
+<link rel="shortcut icon" href="https://run456.github.io/favicon.ico?v=1614885464767">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://run456.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="使用 Gridea + Github 搭建个人博客 | 跑得比谁都快 - Atom Feed" href="https://run456.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="一、建立自己的个人博客
+[1] 为什么要使用博客
+个人博客面向的对象首先是自己，人的记忆力有限，当前掌握的技能或者知识，随着时间的推移而变得模糊。这就需要将当前获取到的信息记录下来，无论是技术、感悟还是阅读。
+与笔记不同的是，博客是需要发表..." />
+    <meta name="keywords" content="教程" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://run456.github.io">
+  <img class="avatar" src="https://run456.github.io/images/avatar.png?v=1614885464767" alt="">
+  </a>
+  <h1 class="site-title">
+    跑得比谁都快
+  </h1>
+  <p class="site-description">
+    一个懒人
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              使用 Gridea + Github 搭建个人博客
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-03-04
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://run456.github.io/tag/RE--8-EDg" class="post-tag">
+                  # 教程
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h3 id="一-建立自己的个人博客">一、建立自己的个人博客</h3>
+<h4 id="1-为什么要使用博客">[1] 为什么要使用博客</h4>
+<p>个人博客面向的对象首先是自己，人的记忆力有限，当前掌握的技能或者知识，随着时间的推移而变得模糊。这就需要将当前获取到的信息记录下来，无论是技术、感悟还是阅读。</p>
+<p>与笔记不同的是，博客是需要发表的，无论是面向自己还是他人，都要求把零散的笔记给系统化，这将有助于提升我们的表达能力以及对知识的理解，有些类似<strong>费曼学习法</strong>，通过用自己的语言将信息重组，来获得更好的知识吸收。 <s>顺便满足自己的码字欲。</s></p>
+<p>2020年自身最大的问题就是，没有任何的内容输出，甚至连豆瓣书影评都懒得点评了，以至于跟一条咸鱼才不多，今年开始尝试提高下自己，至少从表达开始。</p>
+<h4 id="2-博客平台的选择">[2] 博客平台的选择</h4>
+<p>在使用过LOFTER、简书这类轻blog之后，基于对国内服务商的不信任（关键字和谐、服务不稳定等因素），需要一个更好友好、开放的平台，最终还是决定使用Github Page作为个人博客。</p>
+<p>在一月初有这个想法之后，使用Hexo框架进行建站，光是研究主题的layout就花费了不少时间，美化完web页面后，发现选用的主题对移动端不太友好，而且比较厚重，遂放弃。</p>
+<p>在浪费了几天的之后，@Alano 推荐了Hugo框架以及一个较为清爽的主题，又是新一轮的折腾。生命不止，折腾补休，在折腾道路上远比码字来的费时间。</p>
+<p><strong>最终敲定了使用Gridea框架。</strong><br>
+1.安装方便，由于是开源客户端，无需进行额外的系统配置。<br>
+2.自带的markdown编辑器更符合国人的习惯。<br>
+3.主题排版很清新。<br>
+4.最重要的是：自带同步功能，不需要git命令，极大的提高了效率。</p>
+<p>至少在未来一年内可以安心码字了。🙄</p>
+<h3 id="二-实战操作">二、实战操作</h3>
+<h4 id="1-快速搭建github博客">[1] 快速搭建Github博客</h4>
+<p>使用Gridea来搭建博客非常简单，不需要繁琐的命令行以及配置。5分钟内就能搭建好自己的博客。参见 <a href="https://gridea.dev/gridea-start/">官方文档</a> 。</p>
+<h4 id="2-设置博客自定义域名">[2] 设置博客自定义域名</h4>
+<p>以<strong>dnspod</strong>为例。<br>
+1.在域名解析中，增加一条<strong>CNAME</strong>类型的记录值，记录值为github page地址。<br>
+<img src="https://cdn.jsdelivr.net/gh/run456/img/img/20210305011335.png" alt="" loading="lazy"><br>
+2.在github的仓库设置中，添加自定义域名，保存即可。<br>
+<img src="https://cdn.jsdelivr.net/gh/run456/img/img/20210305011602.png" alt="" loading="lazy"></p>
+<h4 id="3-加速博客访问速度">[3] 加速博客访问速度</h4>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E4%B8%80-%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2">一、建立自己的个人博客</a>
+<ul>
+<li><a href="#1-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8%E5%8D%9A%E5%AE%A2">[1] 为什么要使用博客</a></li>
+<li><a href="#2-%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%80%89%E6%8B%A9">[2] 博客平台的选择</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BA%8C-%E5%AE%9E%E6%88%98%E6%93%8D%E4%BD%9C">二、实战操作</a>
+<ul>
+<li><a href="#1-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2">[1] 快速搭建Github博客</a></li>
+<li><a href="#2-%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D">[2] 设置博客自定义域名</a></li>
+<li><a href="#3-%E5%8A%A0%E9%80%9F%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6">[3] 加速博客访问速度</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://run456.github.io/post/hello-gridea">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://run456.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
