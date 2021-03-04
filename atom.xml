@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://run456.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-03-04T17:55:29.281Z</updated>
+    <title>跑得比谁都快</title>
+    <updated>2021-03-04T18:07:44.773Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://run456.github.io"/>
     <link rel="self" href="http://run456.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>一个懒人</subtitle>
     <logo>http://run456.github.io/images/avatar.png</logo>
     <icon>http://run456.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, 跑得比谁都快</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>http://run456.github.io/post/hello-gridea/</id>
