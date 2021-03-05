@@ -2,23 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://run456.github.io</id>
     <title>跑得比谁都快</title>
-    <updated>2021-03-05T03:08:20.871Z</updated>
+    <updated>2021-03-05T08:56:06.191Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://run456.github.io"/>
     <link rel="self" href="https://run456.github.io/atom.xml"/>
-    <subtitle>一个懒人</subtitle>
+    <subtitle>🙋‍♂一名GUI设计师、伪产品经理 的碎碎念。在这里记录一些关于IT、书影音的内容。</subtitle>
     <logo>https://run456.github.io/images/avatar.png</logo>
     <icon>https://run456.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 跑得比谁都快</rights>
     <entry>
+        <title type="html"><![CDATA[使用Github自建免费图床]]></title>
+        <id>https://run456.github.io/post/create-image-hosting/</id>
+        <link href="https://run456.github.io/post/create-image-hosting/">
+        </link>
+        <updated>2021-03-05T03:28:06.000Z</updated>
+        <summary type="html"><![CDATA[<center>🤔如何优雅在的 Markdown 中插入图片。</center>
+]]></summary>
+        <content type="html"><![CDATA[<center>🤔如何优雅在的 Markdown 中插入图片。</center>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[使用 Gridea + Github 搭建个人博客]]></title>
-        <id>https://run456.github.io/post/shi-yong-gridea-github-da-jian-ge-ren-bo-ke/</id>
-        <link href="https://run456.github.io/post/shi-yong-gridea-github-da-jian-ge-ren-bo-ke/">
+        <id>https://run456.github.io/post/creat-github-blog/</id>
+        <link href="https://run456.github.io/post/creat-github-blog/">
         </link>
         <updated>2021-03-05T02:52:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>Github博客快速搭建指南 ⭐️</p>
+        <summary type="html"><![CDATA[<center>⭐️ Github博客快速搭建指南。 </center>
 ]]></summary>
-        <content type="html"><![CDATA[<p>Github博客快速搭建指南 ⭐️</p>
+        <content type="html"><![CDATA[<center>⭐️ Github博客快速搭建指南。 </center>
 ]]></content>
     </entry>
     <entry>

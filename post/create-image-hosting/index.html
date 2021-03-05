@@ -1,0 +1,224 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>使用Github自建免费图床 | 跑得比谁都快</title>
+<link rel="shortcut icon" href="https://run456.github.io/favicon.ico?v=1614934547632">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://run456.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="使用Github自建免费图床 | 跑得比谁都快 - Atom Feed" href="https://run456.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="🤔如何优雅在的 Markdown 中插入图片。
+
+
+一、前言
+开始写博客后，接触了 Markdown  写作，最头疼的是图片的插入。一开始使用 typora 编辑器，使用本地绝对路径的方式调取图片，但生成静态网页后，图片一直无法正常显示。..." />
+    <meta name="keywords" content="教程,Gridea" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://run456.github.io">
+  <img class="avatar" src="https://run456.github.io/images/avatar.png?v=1614934547632" alt="">
+  </a>
+  <h1 class="site-title">
+    跑得比谁都快
+  </h1>
+  <p class="site-description">
+    🙋‍♂一名GUI设计师、伪产品经理 的碎碎念。在这里记录一些关于IT、书影音的内容。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              使用Github自建免费图床
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-03-05
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://run456.github.io/tag/RE--8-EDg/" class="post-tag">
+                  # 教程
+                </a>
+              
+                <a href="https://run456.github.io/tag/NIoiGLCFU/" class="post-tag">
+                  # Gridea
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <center>🤔如何优雅在的 Markdown 中插入图片。</center>
+<!-- more -->
+<hr>
+<h3 id="一-前言">一、前言</h3>
+<p>开始写博客后，接触了 Markdown  写作，最头疼的是图片的插入。一开始使用 typora 编辑器，使用本地绝对路径的方式调取图片，但生成静态网页后，图片一直无法正常显示。</p>
+<p>因此图床是绕不看的话题，国内外都有不少提供图床服务的网站，但始终不放心，因此还是利用Github自建免费的图床，对于个人博客来说，Github完全够用了。</p>
+<pre><code>操作流程简单：新建仓库——上传图片——调用图片Url——完成。
+</code></pre>
+<p>但是为了更快、更方便的使用，需要配合<code>PicGO + jsDelivr</code>使用。</p>
+<h3 id="二-设置picgo">二、设置PicGo</h3>
+<p>1.新建Github仓库，并在账户设置（ <code>Settings</code> &gt; <code>Developer settings</code>  &gt; <code>Personal access tokens</code> ）中创建一个仓库 Token，勾选上 repo 的相关权限即可，获取到Token值。<br>
+<img src="https://cdn.jsdelivr.net/gh/run456/img/img/20210305144229.png" alt="" loading="lazy"><br>
+2.下载PicGo，填写相关信息。<br>
+<img src="https://cdn.jsdelivr.net/gh/run456/img/img/20210305145855.png" alt="" loading="lazy"></p>
+<p>设置好之后就可以快速、便捷的进行图片调用了。</p>
+<ul>
+<li>自定义域名可供CDN加速使用。</li>
+<li>由于Github服务器的不稳定性，建议在上传图片时，设置ss全局翻墙。</li>
+</ul>
+<h3 id="三-为图床加速">三、为图床加速</h3>
+<p>创建Github图床，可以使用<a href="https://www.jsdelivr.com/">jsDelivr</a> 对其进行CDN加速，提高国内访问的速度。</p>
+<blockquote>
+<p>jsDelivr是什么？</p>
+<blockquote>
+<p>jsDelivr由ProspectOne维护的公共库，使用的融合CDN技术，由Cloudflare、Fastly、StackPath、QUANTIL等CDN供应商提供了全球超过750个CDN节点，完全免费和无限制。最重要的是，jsDelivr在中国大陆也拥有超过数百个节点，因为jsDelivr拥有正规的ICP备案，解决了中国大陆的访问速度优化，实现真正的全球极速低延迟体验。</p>
+</blockquote>
+</blockquote>
+<p>使用方法也十分简单，将Github的图片地址链接域名改成 jsDelivr 的 CDN 域名即可。格式如下：</p>
+<pre><code>https://cdn.jsdelivr.net/gh/Github用户名/仓库名@发布的版本号/图片路径
+</code></pre>
+<p>因为上传的是图片，无需发布版本，图片路径也可以在PicGo里设置，以上格式可精简为：</p>
+<pre><code>https://cdn.jsdelivr.net/gh/Github用户名/仓库名
+</code></pre>
+<p>将该路径改成自己的信息，填写至PicGo的自定义域名里，下次使用PicGo上传图片时，就可以直接获取到加速后的图片地址。</p>
+<p>至此，有关图床的操作全部完成，可以安心码文章了。😀</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E4%B8%80-%E5%89%8D%E8%A8%80">一、前言</a></li>
+<li><a href="#%E4%BA%8C-%E8%AE%BE%E7%BD%AEpicgo">二、设置PicGo</a></li>
+<li><a href="#%E4%B8%89-%E4%B8%BA%E5%9B%BE%E5%BA%8A%E5%8A%A0%E9%80%9F">三、为图床加速</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://run456.github.io/post/creat-github-blog/">
+              <h3 class="post-title">
+                使用 Gridea + Github 搭建个人博客
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://run456.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
