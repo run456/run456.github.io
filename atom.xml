@@ -2,14 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://run456.github.io</id>
     <title>跑得比谁都快</title>
-    <updated>2021-03-05T09:23:30.384Z</updated>
+    <updated>2021-04-02T09:15:42.040Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://run456.github.io"/>
     <link rel="self" href="https://run456.github.io/atom.xml"/>
-    <subtitle>🙋‍♂一名GUI设计师、伪产品经理 的碎碎念。在这里记录一些关于IT、书影音的内容。</subtitle>
+    <subtitle>🙋‍♂&lt;b&gt;一名GUI设计师、伪产品经理的存档空间。&lt;/b&gt;</subtitle>
     <logo>https://run456.github.io/images/avatar.png</logo>
     <icon>https://run456.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 跑得比谁都快</rights>
+    <entry>
+        <title type="html"><![CDATA[[私人影音库] 规范本地音乐文件库]]></title>
+        <id>https://run456.github.io/post/musiclibrary/</id>
+        <link href="https://run456.github.io/post/musiclibrary/">
+        </link>
+        <updated>2021-03-30T03:20:19.000Z</updated>
+        <summary type="html"><![CDATA[<center>🎧如何最大程度规范你的本地音乐？</center>
+]]></summary>
+        <content type="html"><![CDATA[<center>🎧如何最大程度规范你的本地音乐？</center>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用Github自建免费图床]]></title>
         <id>https://run456.github.io/post/create-image-hosting/</id>
